@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myform" action="#">
+        <label>ToDo Name : </label>
+        <input type="text" name="todoname" id="todoname" required>
+        
+        <label>ToDo Description : </label>
+        <input type="text" name="tododescrip" id="tododescrip" required>
+        <input type="submit" name="Submit" value="Submit">
+
+    </form>
+    <h4> Remainig ToDo Lists</h4>
+    <ul id="lists"></ul>
+    <h4>Done List</h4>
+    <ul id="donelists"></ul>
+    <script src="todo.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+</body>
+</html>
